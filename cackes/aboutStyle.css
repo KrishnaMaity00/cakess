@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url('imagesFor/about-back3.jpg');
+    background-size:cover;
+    background-position: center;
+} */
+header{
+    position: relative;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 0 0 3px #000;
+}
+header li{
+    display: inline;
+    padding-left: 55px;
+}
+header li a{
+    color: #000;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+
+}
+header li a:hover{
+    color: blue;
+}
+.aboutUs{
+    background: transparent;
+    display: block;
+}
+.aboutUs h3{
+    width: 100%;
+    padding-left: 100px;
+    color: rgb(156, 20, 47);
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    /* border-bottom: 2px solid palevioletred; */
+}
+.aboutUs h1{
+    color: rgb(113, 2, 98);
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.row{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+.imgforAbout{
+    padding-left: 10px;
+    flex: 1 1 45rem;
+    width: 60%;
+}
+.imgforAbout img{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    /* padding-bottom: 500px; */
+    /* padding-top: 10px; */
+    /* padding-left: 20px; */
+    border: solid rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+.imgforAbout button{
+    height: 50px;
+    width: 40%;
+    margin-top: 20px;
+    /* box-shadow: 0 0 30px rgba(0,0,0, .5); */
+}
+.btn-LernMore{
+    border: 1px solid bisque;
+    border-radius: 6px;
+    background: #162938;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+.btn-LernMore a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.content{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float:inline-end;
+}
+.content h3{
+    color: #000;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 5rem 0;
+}
+.content p{
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem 1rem;
+    line-height: 1;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.icons-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+.iconAbout{
+    background: #f4acac;
+    height: 70px;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1 1 17rem;
+    padding: 1.5rem 1rem;
+}
+.iconAbout i{
+    font-size: 2rem;
+    color:tomato
+}
+.fas-fa-shipping-fast svg{
+    height: 50px;
+    width: 50px;
+    backdrop-filter: blur(20px)
+}
+.fas-fa-dollar-sign svg{
+    height: 50px;
+    width: 50px;
+}
+.iconAbout span{
+    font-size: 1.5rem;
+    color:#000
+}
+.container1{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    width: 100%;
+    background-color: #162938;
+    padding: 70px 0;
+}
+.footer-col1{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col1 h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    /* background-color: red; */
+    /* justify-content: start;*/
+     /* align-items: start;   */
+}
+.footer-col1 h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    /* background-color: #e91e63; */
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+.footer-col1 ul li:not(:list-child){
+    margin-bottom: 10px;
+}
+.footer-col1 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col1 ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col1 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col1 .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
